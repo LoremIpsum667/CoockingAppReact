@@ -1,0 +1,31 @@
+h2{
+    color: white;
+}
+
+.mealCard{
+    flex: 1 0 20%;
+    min-width: 180px;
+    max-width: 280px;
+    border: 1px solid white;
+    margin: 5px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.363);
+}
+
+.mealCard p{
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    overflow: hidden;
+}
+
+.originFoodStyle{
+    color: white;
+    font-weight: 200;
+}
+
+.originFoodStyle span{
+    color: black;
+    font-weight: 700;
+}
