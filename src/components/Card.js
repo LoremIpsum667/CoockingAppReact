@@ -1,5 +1,4 @@
 import React from "react";
-import cardStyle from '../assets/style/cardStyle.css';
 
 
 const Card = ({ meal }) => {
